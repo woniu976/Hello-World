@@ -1,0 +1,5 @@
+benz = cars_info(brand = 'benz',size = 'four',price = '300-400k',color = 'black')
+print(benz)
+for key,value in benz.items():
+    print(f'\n{key.title()} :')
+    print(f'{value.title()}')
